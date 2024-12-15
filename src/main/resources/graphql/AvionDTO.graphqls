@@ -1,0 +1,6 @@
+type AvionDTO{
+    model:String
+    color: String
+    matricul:String
+    price: String
+}

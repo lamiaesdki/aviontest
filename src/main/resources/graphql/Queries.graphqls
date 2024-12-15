@@ -1,0 +1,4 @@
+type Query {
+    getAvionByModel(model: String): AvionDTO
+    getAvionByModelAndPrice(model: String, price: Float): AvionDTO
+}
